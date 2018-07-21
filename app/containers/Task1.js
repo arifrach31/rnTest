@@ -56,7 +56,7 @@ class Task1 extends Component {
             <View>
               {data.map((d) => {
                 console.log('state:', this.state.searchText)
-                if(this.state.searchText == d.title){
+                if(d.title.match(this.state.searchText)){
                   return(
                     <Text>{d.title}</Text>
                   )
