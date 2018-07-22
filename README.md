@@ -8,7 +8,11 @@ On your terminal run this command to play this apps!
 5. bellow module.exports = function (hostname) {
 6. change : 
 ```javascript
-host !== 'localhost' to host !== '10.0.3.2'
+hostname !== 'localhost' && hostname !== '127.0.0.1 
+```
+to
+```javascript
+hostname !== '10.0.3.2' && hostname !== '127.0.0.1 
 ```
 ![alt text](https://image.ibb.co/kQCFMy/photo6242119208615913439.jpg)
 7. save and exit
