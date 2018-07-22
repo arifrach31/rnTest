@@ -19,4 +19,4 @@ hostname !== '10.0.3.2' && hostname !== '127.0.0.1'
 7. save and exit
 8. react-native run-android
 
-note : On Android emulator, the IP of host is `10.0.2.2` (Genymotion: 10.0.3.2)
+> note : On Android emulator, the IP of host is `10.0.2.2` (Genymotion: 10.0.3.2)
