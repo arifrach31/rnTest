@@ -15,6 +15,7 @@ to
 hostname !== '10.0.3.2' && hostname !== '127.0.0.1'
 ```
 ![alt text](https://image.ibb.co/kQCFMy/photo6242119208615913439.jpg)
+
 7. save and exit
 8. react-native run-android
 
